@@ -43,4 +43,8 @@ html {
       background: black;
       position: absolute;
       top: 50%;
+      transform-origin: 100%; /* rotates the hand to the right end of the div instead of the center*/
+      transform: rotate(90deg); /* sets the hand at the 12 position */
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
